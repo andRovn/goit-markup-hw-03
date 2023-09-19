@@ -2,18 +2,48 @@
   --brand-color: #3f51b5;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 225px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.ul-header {
+  padding: 24px 832px 24px 347px;
+}
+
+.contact-mail {
+  padding: 24px 347px 24px 940px;
+}
+
+.contact-tel {
+  padding: 24px 156px 24px 1133px;
+}
+
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 1169px 24px 156px;
 }
 
 .link {
   text-decoration: none;
+}
+
+.title-hero {
+  padding: 188px 472px 292px 472px;
+}
+
+.span-order {
+  padding: 16px 32px 16px 32px;
 }
 
 .studio {
@@ -84,13 +114,14 @@
 
 .click {
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  margin: 356px 635px 188px 636px;
 }
 
 .click:hover {
@@ -164,7 +195,7 @@ button {
 }
 
 .click-port {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -188,4 +219,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.list-images {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.section {
 }
