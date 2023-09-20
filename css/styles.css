@@ -221,7 +221,7 @@ button {
   max-width: 264px;
 }
 
-.click-port: {
+.click-port {
   display: flex;
   border: 1px solid #e7e9fc;
   background: #f4f4fd;
