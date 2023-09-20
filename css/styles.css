@@ -1,5 +1,6 @@
 :root {
   --brand-color: #3f51b5;
+  --button-color: #e7e9fc;
 }
 
 h1,
@@ -43,7 +44,6 @@ img {
 .header {
   width: 1440px;
   justify-content: center;
-  align-items: center;
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
@@ -224,9 +224,6 @@ button {
 .click-port: {
   display: flex;
   padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
   border: 1px solid #e7e9fc;
   background: #f4f4fd;
   border-radius: 4px;
@@ -270,7 +267,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
 }
 
 .span-order {
@@ -352,7 +349,6 @@ button {
   width: 232px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 8px;
   padding: 32px 0;
 }
