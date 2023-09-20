@@ -223,9 +223,10 @@ button {
 
 .click-port: {
   display: flex;
-  padding: 12px 24px;
   border: 1px solid #e7e9fc;
   background: #f4f4fd;
+  border-radius: 4px;
+  padding: 12px 24px;
   border-radius: 4px;
 }
 
@@ -414,6 +415,10 @@ button {
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
+}
+
+.list-header {
+  padding: 24px 0;
 }
 
 .button-text {
