@@ -42,9 +42,6 @@ img {
 }
 
 .header {
-  width: 1440px;
-  justify-content: center;
-  flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -80,6 +77,8 @@ img {
 
 .add {
   font-style: normal;
+  margin-left: auto;
+  padding: 24px 0;
 }
 
 .ul-add {
@@ -87,7 +86,6 @@ img {
   align-items: flex-start;
   gap: 40px;
   list-style-type: none;
-  padding: 24px 0;
 }
 
 .add-list {
@@ -96,6 +94,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .add-list:hover {
@@ -103,6 +102,14 @@ img {
 }
 
 .add-list:focus {
+  color: #404bbf;
+}
+
+.list-header:hover {
+  color: #404bbf;
+}
+
+.list-header:focus {
   color: #404bbf;
 }
 
@@ -131,6 +138,7 @@ img {
   height: 56px;
   border: none;
   cursor: pointer;
+  margin: 48px auto;
 }
 
 .features-section {
@@ -184,31 +192,23 @@ button {
 
 .foot {
   background-color: #2e2f42;
-  flex-shrink: 0;
   padding: 100px 0;
 }
 
 .foot-studio {
   color: #f4f4fd;
+}
+
+.logo-foot {
+  color: #3f51b5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: flex;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.logo-foot {
-  display: inline-block;
-  height: 24px;
-  align-items: center;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .foot-par {
@@ -227,7 +227,6 @@ button {
   background: #f4f4fd;
   border-radius: 4px;
   padding: 12px 24px;
-  border-radius: 4px;
 }
 
 .click-port:hover {
@@ -244,12 +243,11 @@ button {
 
 .port-par {
   color: var(--SLATE, #434455);
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 
@@ -269,6 +267,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: auto;
 }
 
 .span-order {
@@ -280,10 +279,6 @@ button {
 }
 
 .list-features {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -346,11 +341,6 @@ button {
 }
 
 .card-team {
-  display: flex;
-  width: 232px;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
   padding: 32px 0;
 }
 
@@ -369,21 +359,6 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.foot-web {
-  display: flex;
-  width: 44px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .contact-mail-tel {
@@ -418,6 +393,11 @@ button {
 }
 
 .list-header {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   padding: 24px 0;
 }
 
@@ -439,15 +419,6 @@ button {
 }
 
 .list-images {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
-  border: 1px solid #e7e9fc;
   background: #fff;
 }
 
@@ -458,23 +429,9 @@ button {
 }
 
 .card-port {
-  display: flex;
   padding: 32px 16px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.nav-list {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  padding: 24px 0;
 }
 
 .portfolio-section {
